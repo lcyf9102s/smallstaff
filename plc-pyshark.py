@@ -1,3 +1,9 @@
+import modbus_tk.modbus_tcp as mt
+import modbus_tk.defines as md
+from time import *
+from scapy.all import *
+from random import *
+
 def main():
         plc = mt.TcpMaster('10.55.0.6', 502)
 
